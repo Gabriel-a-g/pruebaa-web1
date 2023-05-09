@@ -1,21 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: orange;
 }
-#opciones{
+
+#opciones {
     text-align: center;
-    list-style: none; /*elimiina los puntitos (viñeta) */
-    
-    }
-    
-    #opciones li{
-    display: inline-block; /* la lista la coloca horizontalmente */
+    list-style: none;
+    /*elimiina los puntitos (viñeta) */
+
+}
+
+#opciones li {
+    display: inline-block;
+    /* la lista la coloca horizontalmente */
     padding: 10px;
-    }
-    header{
-      text-align: center;  
-    }
-    
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: aqua;
+    text-align: center;
+}
