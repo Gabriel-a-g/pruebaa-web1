@@ -33,3 +33,15 @@ footer {
     background-color: aqua;
     text-align: center;
 }
+
+.boton{
+    text-decoration: none;
+    color: black;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 5px ;
+    border-radius: 7px;
+    display: inline;
+
+
+}
+
