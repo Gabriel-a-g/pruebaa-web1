@@ -4,19 +4,19 @@
 }
 
 body {
-    background-color: orange;
+    background-color: rgb(255, 0, 0);
 }
 
 #opciones {
     text-align: center;
     list-style: none;
-    /*elimiina los puntitos (viñeta) */
+
 
 }
 
 #opciones li {
     display: inline-block;
-    /* la lista la coloca horizontalmente */
+  
     padding: 10px;
 }
 
@@ -25,23 +25,29 @@ header {
 }
 
 section {
-    background-color: #fff;
+    background-color: #6d6d6d;
     margin-top: 20px;
+    text-align: center;
+    color: aqua;
 }
 
 footer {
-    background-color: aqua;
+    background-color: rgb(255, 0, 0);
     text-align: center;
 }
 
 .boton{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 255, 255);
     border: 3px solid rgb(0, 0, 0);
     padding: 5px ;
     border-radius: 7px;
     display: inline;
-
+    
 
 }
 
+picture {
+    display: flex;
+    justify-content: center; /* alineación centrada de la imagen */
+}
