@@ -29,6 +29,7 @@ section {
     margin-top: 20px;
     text-align: center;
     color: aqua;
+    padding: 20px;
 }
 
 footer {
@@ -50,4 +51,11 @@ footer {
 picture {
     display: flex;
     justify-content: center; /* alineación centrada de la imagen */
+}
+ul li{ 
+    margin: 10px;
+    list-style: none;
+}
+#redes li{
+    display: inline-block;
 }
